@@ -1,0 +1,7 @@
+services:
+  routing-assets-example:
+    container_name: routing-assets-example
+    image: routing-assets-example:latest
+    restart: always
+    ports:
+      - "8080:8080"
